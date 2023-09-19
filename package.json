@@ -5,10 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "x-test": "jest",
     "build": "tsc",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test",
+    "x-prepublishOnly": "npm test",
     "postversion": "git push && git push --tags"
   },
   "repository": {
